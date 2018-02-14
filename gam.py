@@ -9,7 +9,7 @@ def f(x):
 
 def get_data(n_points):
 
-        x = np.linspace(-2, 2, n_points)#np.random.uniform(-2, 2, n_points)
+        x = np.linspace(-2, 2, n_points)
         x.sort()
         u = 0.5
         y = f(x) + np.random.randn(n_points) * u
